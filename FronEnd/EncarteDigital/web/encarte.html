@@ -1,0 +1,50 @@
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/angular-material.min.css">
+  <link rel="stylesheet" href="css/encarte.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+  
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="js/angular/angular.min.js"></script>
+  <script src="js/angular/angular-animate.min.js"></script>
+  <script src="js/angular/angular-aria.min.js"></script>
+  <script src="js/angular/angular-messages.min.js"></script>
+<script src="https://cdn.jsdelivr.net/angular-material-icons/0.4.0/angular-material-icons.min.js"></script>
+  <!-- Angular Material Library -->
+  <script src="js/angular/angular-material.min.js"></script>
+
+
+  <!-- Bibliotecas Sistema -->
+  <script src="js/encarte.js"></script>	
+</head>
+<body layout="row" ng-app="myApp" ng-cloak>
+
+<section ng-controller="GridCtrl" layout-fill layout="column">
+  
+    <div ng-repeat="row in grid" flex layout="row">
+      <div ng-repeat="item in row" flex layout="row" layout-align="center center" layout-margin class="box">
+        <h1 class="md-title">{{ item }}</h1>
+      </div>
+    </div>
+  <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
+      <md-toolbar class="md-theme-light">
+        <h1 class="md-toolbar-tools">Feijão Carioca</h1>
+      </md-toolbar>
+      <md-content  layout-padding>
+        <form>
+          <md-input-container>
+            <label for="produto">Feijão carioca melhor caldo PC 1Kg</label>
+            <img id="produto" src="img/feijaoki.jpg">
+          </md-input-container>
+        </form>
+        <md-button ng-click="close()" class="md-primary">
+          Voltar
+        </md-button>
+      </md-content>
+    </md-sidenav>
+</section>
+</body>
+</html>

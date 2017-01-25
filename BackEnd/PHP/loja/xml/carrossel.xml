@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<carrossel>
+ <produto>
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/1.png</imagem>
+    <url>http://lojaswebshop.com/novademo/modelo1/produto/-Celular-LG-P525-Desbloqueado-Claro-Dual-Chip.html</url>
+    <chamada>
+      <![CDATA[<font color="#AA0303">Celular Samsung -<font color="#AA0303"><b> a partir de R$ 255,00</b></font></font>]]> 
+    </chamada>
+  </produto>
+
+
+  <produto>
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/2.png</imagem>
+    <url>http://lojaswebshop.com/novademo/modelo1/produto/Samsung-Galaxy-Ace-Preto-Android-%252d-Desbloqueado-Vivo-%252d-2.2-800-MHz-Touch-Wi%252dFi-3G-C%E2m-5MP.html</url>
+    <chamada>
+      <![CDATA[<font color="#AA0303">Celular Vivo -<font color="#AA0303"><b>a partir de R$160</b></font></font>]]> 
+    </chamada>
+  </produto>
+
+
+ <produto>
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/3.png</imagem>
+    <url>http://lojaswebshop.com/novademo/modelo1/produto/Samsung-Galaxy-Note-Android-2.3-Dual-Core-Amoled-5.3%22-8-MP-Full-HD-16-GB.html</url>
+    <chamada>
+  <![CDATA[<font color="#AA0303">Tim Desbloquado -<font color="#AA0303"><b> a partir de 10x de R$ 11,00</b></font></font>]]>  
+    </chamada>
+  </produto>
+
+
+
+ <produto>
+    <imagem>hhttp://lojaswebshop.com/novademo/modelo1/imagens/4.png</imagem>
+    <url>http://lojaswebshop.com/novademo/modelo1/produto/Celular-LG-P970-Preto-Optimus-Black-%252d-GSM-%252d-c%7B47%7D-Sistema-Operacional-Android-2.2%2C-Wi%252dFi.html</url>
+    <chamada>
+       <![CDATA[<font color="#AA0303">Lg Android -<font color="#AA0303"><b> a partir de 10x de R$ 83,00.</b></font></font>]]> 
+    </chamada>
+  </produto>
+
+
+
+
+ <produto> 
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/5.png</imagem>
+    <url>http://lojaswebshop.com/novademo/modelo1/produto/-Celular-LG-P525-Desbloqueado-Claro-Dual-Chip.html</url>
+    <chamada>
+      <![CDATA[<font color="#AA0303">Dual Chip -<font color="#AA0303"><b> a partir de 10x de R$ 13,00.</b></font></font>]]> 
+    </chamada>
+  </produto>
+
+
+  <produto>
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/6.png</imagem>
+    <url>http://lojaswebshop.com/novademo/modelo1/produto/Celular-Motorola-WX294-%252d-Desbloqueado-Oi-%252d-GSM.html</url>
+    <chamada>
+      <![CDATA[<font color="#AA0303">Celular Motorola -<font color="#AA0303"><b>a partir de 6x de R$ 51,00</b></font></font>]]> 
+    </chamada>
+  </produto> 
+
+
+ <produto>
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/7.png</imagem>
+    <url>http://lojaswebshop.com/novademo/modelo1/produto/Smartphone-Xperia-X8-Preto-Vivo-%252d-GSM-c%7B47%7D-Sistema-Operacional-Android-2.1%2C-Tecnologia-3G%2C-Wi%252dFi%2C-GPS.html</url>
+    <chamada>
+      <![CDATA[<font color="#AA0303">Smartphone  -<font color="#AA0303"><b> a partir de 8x de R$ 51,00.</b></font></font>]]> 
+    </chamada>
+  </produto>
+
+  
+ <produto>
+    <imagem>http://lojaswebshop.com/novademo/modelo1/imagens/8.png</imagem>
+    <url>http://lojaswebshop.com/novademo/modelo1/produto/Smartphone-Nokia-C5%252d03-%252d-GSM-%252d-Desbloqueado-Claro-c%7B47%7D-Tecnologia-3G%2C-Wi%252dFi%2C-GPS%2C-TouchScreen-c%7B47%7D-tela-de-3.2%22.html</url>
+    <chamada>
+      <![CDATA[<font color="#AA0303">Nokia C5 -<font color="#AA0303"><b></b></font></font>]]> 
+    </chamada>
+  </produto> 
+</carrossel>

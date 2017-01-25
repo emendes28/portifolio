@@ -1,0 +1,768 @@
+***********************************************
+2013-11-01 22:28:07:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="ab9f755e33da078e575f74ab673bd3fd" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>7854129</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:28:07</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:29:08:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="31fdadcecd05fc105d766777ec114e31" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>2830210</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:29:08</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:29:13:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="1879d81e74fab665cd9199b269d4f731" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>6186464</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:29:13</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:29:19:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="d63c2496cdc976d8d605928cdf1eaa59" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>7905191</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:29:19</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:30:26:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="97057d0093e3cf094b22fbdc4dc307df" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>9645235</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:30:26</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:30:36:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="1b79338c5104d480b5158fd57c5e6585" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>8889672</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:30:36</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:32:14:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="f8f5d6d0bb35bc1de42f10a34f54631e" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>8478541</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:32:14</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:35:14:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="b7e1ad24e64946ef2a493c94f6bcb572" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>2597618</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:35:14</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:41:02:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="634bf5ee91ee4e453b8544ba5589bdb5" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>7907394</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:41:02</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:41:58:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="bc8061b7599e05b7ec184218511f444e" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>9382420</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:41:58</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:42:03:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="0603bb489d92093b05a7cdf3585f2bbb" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>3197494</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:42:03</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:42:29:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="f217d80df2ea9aed3511d625fb4267d8" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>6092142</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:42:29</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:42:47:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="1cfee101e4c5930dafa010caff940d3e" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>6544327</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:42:47</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:43:13:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="0f8ae256e88e1891426d9338c9615ea2" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>4453119</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:43:13</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 22:43:44:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="ad26420f348f680cebef62aa34272a96" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>9900444</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T22:43:44</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-01 23:22:27:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="d9d5d9f3019a66e45226d05b2513f6bf" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>3387257</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-01T23:22:27</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-02 11:04:43:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="e2e6a61a03d0d3f5ebf413a291d52701" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>4268775</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T11:04:43</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-02 22:40:24:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="44eb69529ef118873987379ffd2fb7f5" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>3539819</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T22:40:24</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-02 22:44:49:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="88d1e7f56a27cb2e88d642aae4037b73" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>9588499</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T22:44:49</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-02 22:44:58:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="ac5a0654e8a0fada4f1b761e7f0b5d7f" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>6400017</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T22:44:58</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-02 22:57:38:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="e7c7bab2dda44e4b04261e6ffac8b285" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>7437685</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T22:57:38</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-02 23:02:58:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="a057772f06018a495442e9ac469460f6" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>8011619</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T23:02:58</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-02 23:02:58:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+RESPOSTA: Protocol https not supported or disabled in libcurl
+
+***********************************************
+2013-11-02 23:03:07:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="5f08fb712f8b29b5267c2ca5d0853ad1" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>5790177</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T23:03:07</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-02 23:03:07:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+RESPOSTA: Protocol https not supported or disabled in libcurl
+
+***********************************************
+2013-11-02 23:03:26:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="6c89f24aeb9dff6a73fa04a00f26e593" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>9677768</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T23:03:26</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-02 23:03:33:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="7054ff6ba442a8c60be00aabbfb8ea25" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>8045964</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T23:03:33</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-02 23:03:44:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="21092ee2d49eb62e19ccbf4d883cf51f" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>9997038</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T23:03:44</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-02 23:04:16:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="72665e92dd26061f98ab52f4d14a6b67" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>9698095</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T23:04:16</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-11-03 14:20:25:000000 (BRST)
+DO ARQUIVO: /lojaexemplo-php/pages/novoPedidoAguarde.php
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="222e1f3c0bada783fc1cbc7af72c7db6" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>3787889</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-03T14:20:25</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+

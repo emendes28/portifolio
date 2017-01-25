@@ -1,0 +1,32 @@
+      
+<style>visMap{width: 950px;height: 480px;border: 1px solid #DEDEDE;}</style>
+<script src="depedencies/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://d3js.org/topojson.v1.min.js" charset="utf-8"></script>
+
+<div id="visMap" class="visMap"></div>
+<script>
+  var visMap = d3.select('#visMap');
+  var width = parseInt(visMap.style('width'));
+  var height = parseInt(visMap.style('height'));
+    
+  var svg = visMap.append("svg")
+  .attr("width", '100%')
+  .attr("height", '100%');
+  var projection = d3.geo.equirectangular()
+  .scale(150)
+  .center([0,0])
+  .rotate(0,0)
+  .translate([width/2,height/2]);
+   var path = d3.geo.path()
+  .projection(projection);
+    d3.json("worldcountry.json", function(data) {
+
+    svg.selectAll("path")
+    .data(topojson.feature(data, data.objects.countries).features)
+    .enter()
+    .append("path")
+    .attr("d", path);
+
+  });
+      
+</script>

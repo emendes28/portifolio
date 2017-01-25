@@ -1,0 +1,38 @@
+* {
+   outline: 1px solid red !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.title {
+    background-color: darkturquoise;   
+}
+/*.title {
+    background-color: darkturquoise;
+    font-style: italic;
+    font-size: 60px;
+    font-family: fantasy;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;     
+}
+
+.screenshot {
+    float: left;
+    width: 50%;
+}
+
+.description {
+   float: right;
+   color: red;
+   width: 50%;
+}*/

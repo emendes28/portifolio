@@ -1,0 +1,45 @@
+%%GLOBAL_OptimizerLinkScript%%
+
+
+
+<div id="TopMenu">
+
+<script>
+<!--esconder o script dos navegadores anteriores
+_datatoda = new Date // recebe a data e hora
+_diasemana = _datatoda.getDay() // recebe o dia da semana
+nummes = _datatoda.getMonth() // recebe o mes
+hora = _datatoda.getHours() // recebe a hora
+minuto = _datatoda.getMinutes() // recebe o minutos
+//
+// monta vetor com os dias da semana e meses
+_dia = new Array("Domingo","Segunda","Terça","Quarta","Quinta","Sexta","Sábado")
+_mes = new Array("Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+//
+// verifica a hora e os minutos e monta a variavel saudacao
+saudacao = " "
+if (hora <=11 && minuto <=59)
+{
+saudacao = "Bom dia"
+}
+if (hora >=12 && hora < 18)
+{
+saudacao = "Boa tarde"
+}
+if (hora >=18 && hora <=24)
+{
+saudacao = "Boa noite"
+}
+-->
+</script>
+
+
+<script>
+<!--esconder o script dos navegadores anteriores
+document.write(saudacao + " %%GLOBAL_CurrentCustomerFirstName%%" + " %%GLOBAL_LoginOrLogoutText%%")
+
+-->
+</script>
+
+
+</div>

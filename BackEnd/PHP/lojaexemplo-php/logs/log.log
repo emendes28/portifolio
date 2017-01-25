@@ -1,0 +1,216 @@
+**********************************************************
+2 WARNING - 2013-11-01 22:28:07 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:29:08 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:29:13 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:29:19 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:30:26 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:30:36 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:32:14 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:35:14 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:41:02 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:41:58 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:42:03 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:42:29 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:42:47 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:43:13 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 61)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 22:43:44 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-01 23:22:27 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-02 11:04:43 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-02 22:40:24 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-02 22:44:49 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-02 22:44:58 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-02 22:57:38 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+256 ERRO NA TRANSACAO - 2013-11-02 23:02:58 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/errorHandling.php(Linha 42)
+     MENSAGEM: 
+     Código do erro: 99
+     Mensagem: HTTP READ TIMEOUT - o Limite de Tempo da transação foi estourado
+     XML de envio: 
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="a057772f06018a495442e9ac469460f6" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>8011619</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T23:02:58</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+**********************************************************
+256 ERRO NA TRANSACAO - 2013-11-02 23:03:07 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/errorHandling.php(Linha 42)
+     MENSAGEM: 
+     Código do erro: 99
+     Mensagem: HTTP READ TIMEOUT - o Limite de Tempo da transação foi estourado
+     XML de envio: 
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<requisicao-transacao id="5f08fb712f8b29b5267c2ca5d0853ad1" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>5790177</numero>
+      <valor>10000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-11-02T23:03:07</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http://localhost/lojaexemplo-php/pages/retorno.php</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+**********************************************************
+2 WARNING - 2013-11-02 23:03:26 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 64)
+     MENSAGEM: 
+curl_exec(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-02 23:03:33 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 64)
+     MENSAGEM: 
+curl_exec(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-02 23:03:44 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 64)
+     MENSAGEM: 
+curl_exec(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-02 23:04:16 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
+**********************************************************
+2 WARNING - 2013-11-03 14:20:26 (BRST)
+     ARQUIVO: /var/www/lojaexemplo-php/includes/include.php(Linha 73)
+     MENSAGEM: 
+curl_error(): 8 is not a valid cURL handle resource
+
