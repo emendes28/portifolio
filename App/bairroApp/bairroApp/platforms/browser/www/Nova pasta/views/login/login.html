@@ -1,0 +1,24 @@
+<md-toolbar>
+<div layout="column" layout-padding layout-align="center center">
+    <div class="md-headline md-padding">Entrar</div>
+</div>
+    </md-toolbar>	
+<form name="loginForm"> 
+<md-input-container class="md-block">
+	<label for="email">Email</label>
+	<input type="email" name="usuario.email" ng-model="vmLoginCtrl.email" required   minlength="10" maxlength="100" ng-pattern="/^.+@.+\..+$/" />
+	
+		<div ng-messages="loginForm.email.$error" role="alert">
+		  <div ng-message-exp="['required', 'minlength', 'maxlength', 'pattern']">
+		    Verifique seu endereço de email
+		  </div>
+      		</div>
+</md-input-container> 
+<md-input-container class="md-block">
+	<label for="password">Senha</label>
+	<input type="password" name="usuario.password" ng-model="vmLoginCtrl.password" required  minlength="6" maxlength="15"/>
+</md-input-container>
+<div layout="row" layout-align="center center">
+    <md-button type="submit" class="md-raised md-primary" ng-disabled="loginForm.$invalid" ng-click="vmLoginCtrl.login(usuario)">Login</md-button>
+</div>
+</form>

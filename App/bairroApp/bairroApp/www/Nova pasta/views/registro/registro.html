@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="views/novo/novo.css">
+    <md-toolbar>
+        <div layout="row" layout-padding layout-align="center center">
+            <div class="md-headline md-padding">Criar novo usuário</div>
+        </div>
+    </md-toolbar>
+  	<md-content class="md-no-momentum">
+          <md-switch ng-model="showHints">Dicas? {{mostrarDicas ? "dicas" : "errors"}}</md-switch>
+        <form name="novoForm"> 
+	    <md-input-container class="md-block">
+                <label for="nome">Nome</label>
+                <input type="nome" name="usuario.nome" ng-model="vmNovoCtrl.email" required   minlength="5" maxlength="100"  />
+		<div ng-messages="novoForm.nome.$error" role="alert">
+		  <div ng-message-exp="['required', 'minlength', 'maxlength']">
+		    Informe seu nome real
+		  </div>
+      		</div>
+            </md-input-container>
+	    <md-input-container class="md-block">
+                <label for="email">Email</label>
+                <input type="email" name="usuario.email" ng-model="vmNovoCtrl.email" required   minlength="10" maxlength="100" ng-pattern="/^.+@.+\..+$/" />
+		<div ng-messages="loginForm.email.$error" role="alert">
+		  <div ng-message-exp="['required', 'minlength', 'maxlength', 'pattern']">
+		    Verifique seu endereço de email
+		  </div>
+      		</div>
+            </md-input-container> 
+	    <md-input-container class="md-block">
+                <label for="password">Senha</label>
+                <input type="password" name="usuario.password" ng-model="vmNovoCtrl.password" required  minlength="6" maxlength="15"/>
+		<div ng-messages="loginForm.password.$error" role="alert">
+		  <div ng-message-exp="['required', 'minlength', 'maxlength', 'pattern']">
+		    Senha obrigatória
+		  </div>
+            </md-input-container>
+        <div layout="row" layout-align="center center">
+            <md-button type="submit" ng-click="vmNovoCtrl.criar(usuario)" class="md-raised md-accent" flex="50">Registrar</md-button>
+        </div>
+        </form>
+  </md-content>
+</md-card>

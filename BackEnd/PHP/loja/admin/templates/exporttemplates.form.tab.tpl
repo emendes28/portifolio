@@ -1,1 +1,0 @@
-<li><a href="#" id="tab%%GLOBAL_FileIndex%%" onclick="ShowTab(%%GLOBAL_FileIndex%%)" %%GLOBAL_TabDisplay%%>%%GLOBAL_TypeTitle%%</a></li>

@@ -1,0 +1,22 @@
+
+#addProductButton{
+    margin-bottom: 20px;
+}
+
+.bottom-controls{
+    margin-bottom: 20px;
+}
+
+.edit-container {
+    margin-top: 20px;
+}
+
+.edit-receipt-product-list {
+    margin-top: 20px;
+}
+
+.autocomplete-field{
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-top:10px;
+}

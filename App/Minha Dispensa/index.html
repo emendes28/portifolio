@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Minha Dispensa</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='css/componentes/icon.css'>
+<link rel='stylesheet prefetch' href='css/componentes/angular-material.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div ng-app="searchBarApp">
+  <div ng-controller="searchCtrl as ctrl">
+    <md-toolbar>
+      <!-- Pre-Search Bar -->
+      <div ng-show="ctrl.showPreSearchBar()" class="md-toolbar-tools">
+
+        <h2>Minha Dispensa</h2>
+        <span flex></span>
+	<!--
+            <md-menu>
+                <md-button class="md-icon-button" aria-label="Clasificar" ng-click="abrirMenu($mdOpenMenu, $event)">
+         		 <md-icon>more</md-icon>
+                    <md-tooltip md-delay="1500" md-autohide="true"></md-tooltip>
+                </md-button>
+
+                <md-button class="md-icon-button" aria-label="Clasificar" ng-click="abrirMenu($mdOpenMenu, $event)">
+                    <md-icon md-svg-icon="white_classification"></md-icon>
+                    <md-tooltip md-delay="1500" md-autohide="true">Clasificar</md-tooltip>
+                </md-button>
+                <md-menu-content width="4">
+                    <md-menu-item>
+                        <md-button class="md-button" ng-click="clasificarPor('name')">Name</md-button>
+                    </md-menu-item>
+                    <md-menu-divider></md-menu-divider>
+                    <md-menu-item>
+                        <md-button class="md-button" ng-click="clasificarPor('lastname')">Last name</md-button>
+                    </md-menu-item>
+                    <md-menu-divider></md-menu-divider>
+                    <md-menu-item>
+                        <md-button class="md-button" ng-click="clasificarPor('email')">Email</md-button>
+                    </md-menu-item>
+                    <md-menu-divider></md-menu-divider>
+                    <md-menu-item>
+                        <md-button class="md-button" ng-click="clasificarPor('direction')">Direction</md-button>
+                    </md-menu-item>
+                </md-menu-content>
+            </md-menu> -->
+        <!-- Search button (initiates search) -->
+        <md-button ng-click="ctrl.initiateSearch()">
+          <md-icon>search</md-icon>
+          <span>Buscar</span>
+        </md-button>
+        
+      </div>
+      <!-- Search bar -->
+      <div ng-show="ctrl.showSearchBar()" class="md-toolbar-tools search-bar">
+        
+        <md-button class="md-icon-button" ng-click="ctrl.submit()">
+          <md-icon>search</md-icon>
+        </md-button>
+
+        <!-- Input Text -->
+        <md-input-container flex>
+<!--           <label for="search">Search</label> -->
+          <input id="search" type="text" ng-model="search" />
+        </md-input-container>
+        
+        <md-button class="md-icon-button" ng-click="ctrl.endSearch()">
+          <md-icon>close</md-icon>
+        </md-button>
+      </div>
+
+    </md-toolbar>
+	<md-list>
+	  <md-list-item class="md-1-line" ng-repeat="item in ctrl.produtos | filter: search">
+	    <md-checkbox ng-model="item.done"></md-checkbox>
+	    <div class="md-list-item-text">
+	      <h3>{{item.nome}}</h3>
+	      Data de Validade : {{item.dataValidade}} /
+	      Quantidade : {{item.quantidade}}
+	    </div>
+	  </md-list-item>
+	</md-list>
+  </div>
+</div>
+    <script src='js/componentes/angular.min.js'></script>
+<script src='js/componentes/angular-animate.min.js'></script>
+<script src='js/componentes/angular-aria.min.js'></script>
+<script src='js/componentes/angular-messages.min.js'></script>
+<script src='js/componentes/angular-material.min.js'></script>
+<script src="js/componentes/prefixfree.min.js"></script>
+<script src='js/diretivas/ngInclude.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+   
+  </body>
+</html>

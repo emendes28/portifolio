@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/framework.css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <title>Portifolio</title>
+    </head>
+    <body>
+        <article>
+
+            <!-- Cabeçalho -->
+            <header class="header">
+                <div class="row">
+
+            <!-- Logomarca -->
+                <figure class="col-4">
+                    <img class="logo" src="img/logo.svg" alt="my logo an image of terminal codding">
+                </figure>
+                </div>
+                <div class="col-8">
+                    <h1 class="title name">Evandro Mendes</h1>
+                    <h4 class="title function">Full Stack Developer</h4>
+                </div>
+            </header>
+
+            <!-- Linha divisória -->
+            <hr />
+            <!-- Pronto central da aplicação -->
+            <section class="grid conteiner">
+                <figure class="main-img">
+                    <!-- Banner principal -->
+                    <picture> 
+                        <source srcset="img/main.png" media="(min-width: 900px)">
+                        <source srcset="img/main-smal.png" media="(min-width: 760px)">
+                        <img class="the-central-img" src="img/main-cut.png" alt="15 Most Popular Programming Languages You Must Learn in 2015">
+                    </picture>
+                </figure>
+                <h3>Featured Work </h3>
+                <!-- Código injetado via js com os projetos realizados-->
+                <div id="main" class="grid"></div>
+            </section>
+            <footer  class="row">
+                <!-- Autor : Evandro Mendes-->
+                <p class="col-10">&copy;2017 Evandro Mendes.</p>
+                <p class="col-2">
+                    <!-- Site Validado conforme W3C-->
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px"
+                            src="http://jigsaw.w3.org/css-validator/images/vcss"
+                            alt="CSS válido!" />
+                    </a>
+                </p>                        
+            </footer>
+            <!-- Array com os trabalhos realizados -->
+            <script src="data/work.js"></script>
+            <!-- Código a ser injetado -->
+            <script src="js/app.js"></script>
+        </article>
+    </body>
+</html>

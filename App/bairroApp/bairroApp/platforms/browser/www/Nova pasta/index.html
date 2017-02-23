@@ -1,0 +1,92 @@
+<!DOCTYPE html> 		
+<!--[if lt IE 7]>      <html lang="pt-BR" ng-app="bairroApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="pt-BR" ng-app="bairroApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="pt-BR" ng-app="bairroApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> <html lang="pt-BR" ng-app="bairroApp" class="no-js"> <![endif]-->
+<html ng-app="bairroApp" ng-cloak>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel='stylesheet prefetch' href='css/componentes/material/css/materialdesignicons.min.css'>
+    <link rel='stylesheet prefetch' href='css/componentes/angular-material.min.css'>
+    <!--<link rel='stylesheet prefetch' href='css/componentes/docs.css'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/login.css">-->       
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>    
+    <div ng-if="usuariologado != undefined">
+	  <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" style="width:250px">
+	    <md-toolbar class="md-theme-indigo">
+	      <h1 class="md-toolbar-tools">
+		<b>{{menuCtrl.nomeDispensa}}</b>
+		<span flex></span>
+		<md-button class="md-icon-button" aria-label="Fechar Menu" ng-click="menuCtrl.close()">
+		  <md-icon md-font-icon="fa-times" class="fa" alt="Fechar Menu"></md-icon>
+		</md-button>
+	      </h1>
+	    </md-toolbar>
+	    <md-content>
+	      <md-list>
+		<md-list-item ng-repeat="menuItem in menuCtrl.menu" ng-click="menuCtrl.gotoMenu(menuItem, $event)">
+		  <md-icon md-font-icon="{{ menuItem.icon }}" class="fa" alt="{{ menuItem.label }}"></md-icon>
+		  <p> {{ menuItem.label }} </p>
+		</md-list-item>
+	      </md-list>
+	    </md-content>
+	  </md-sidenav>
+
+      <md-content flex>
+        <md-toolbar md-scroll-shrink>
+          <div class="md-toolbar-tools">
+            <md-button class="md-icon-button" aria-label="Configurações" ng-click="ctrl.openMainMenu()">
+              <md-icon md-font-icon="fa-bars" class="fa" alt="Configurações"></md-icon>
+            </md-button>
+            <h3>{{ctrl.getMesExtenso}}</h3>
+            <span flex></span>
+            <h3> Saldo : {{(ctrl.saldoMes == null)?'0,00':ctrl.saldoMes}}</h3>
+          </div>
+        </md-toolbar>
+        <md-content>
+    </div>
+	<div ng-view="" id="ng-view"></div> 
+	<script src='js/componentes/angular.js'></script>
+	<script src='js/componentes/angular-animate.min.js'></script>
+	<script src='js/componentes/angular-aria.min.js'></script>
+	<script src='js/componentes/angular-messages.min.js'></script>
+	<script src='js/componentes/angular-material.min.js'></script>
+	<script src='js/componentes/angular-route.min.js'></script>
+	<script src='js/componentes/angular-route.js'></script>
+	<script src='js/componentes/firebase.js'></script>
+	    <script src="js/componentes/visualization/data-visualization-directives.js"></script>
+	    <script src="js/componentes/loading-indicator/loading-bar.js"></script>
+	    <script src="js/componentes/authUtils.js"></script>
+	    <script src="js/componentes/autocomplete/autocomplete.js"></script>
+	<!--<script src="js/prefixfree.min.js"></script>
+	<script src='js/componentes/Chart.js'></script>
+	<script src='js/componentes/angular-chart.min.js'></script>
+	<script src='js/componentes/angular-chart.js'></script>
+	<script src='js/componentes/ngMask.min.js'></script>
+	<script src='js/componentes/svg-assets-cache.js'></script>
+	<script src='js/componentes/rekord.js'></script>
+	<script src='js/componentes/rekord-firebase.min.js'></script>
+	<script src='js/componentes/rekord-angular.min.js'></script>
+	<script src='js/componentes/unitz.min.js'></script>-->
+	<script src="js/app.js"></script>    
+
+    <!-- Inicial Module -->
+    <script src="views/login/login-controller.js"></script>
+    <script src="views/login/login-service.js"></script>
+
+    <script src="views/inicio/inicio-controller.js"></script>
+    <script src="views/inicio/inicio-service.js"></script>
+    <script src="views/inicio/inicio-config.js"></script>
+
+    <script src="views/retorno/retorno-controller.js"></script>
+    <script src="views/retorno/retorno-service.js"></script>
+
+  </body>
+</html>

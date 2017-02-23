@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+} 
+
+
+body {
+    background-color: #d3d3d3;
+    margin: 0 10%;
+}
+
+
+@media screen and (min-width: 1000px){
+     .conteiner {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width: 760px){    
+    .col {
+        float: left;
+        width: calc(100%/3 - 3%);
+        margin: 10px;
+    }
+
+
+    .name {
+        font-size: 300%;
+    }
+}
+
+@media screen and (max-width: 500px){ 
+    .col {
+        float: left;
+        width: calc(100%/2 - 10%);
+
+    }
+
+
+    .name {
+        font-size: 120%;
+    }
+}
+
+
+@media screen and (max-width: 760px){      
+    #main {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    
+    .fig-project {
+        display: none;
+    }
+
+
+    .col {
+        float: left;
+        width: calc(100%/2 - 10%);
+
+    }
+
+
+    .name {
+        font-size: 205%;
+    }
+    
+
+    .the-central-img  {
+       margin-right: -8%;
+    }
+}
+
+/* Header */
+
+.header {
+    display: flex;  
+    margin: 0;  
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.name {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+.logo {       
+    width: 105px;
+}
+
+/* Content */
+
+hr {
+    border: 2px solid #7d97ad;
+}
+
+
+h3 {
+    font-size: 200%;
+}
+
+
+h2 {
+    margin-top: 3px;
+    font-size: 100%;
+    margin-bottom: 0px;
+}
+
+
+.the-central-img  {
+    max-width:  100%;
+}
+
+
+.main-img {    
+    margin: 0 10%;
+    max-width: 100%;
+}
+
+
+.function {
+    margin-top: 5px;
+    padding-top: 0px;
+    font-size: 130%;
+    margin-bottom: 15px;
+}
+
+
+.legend {
+    font-size: 80%;
+}
+
+
+.fig-project {
+    width: 230px;
+    height: 120px;
+    border-style: groove;
+    max-width: 100%;
+    margin: 10px;
+}
+
+
+.the-centra-limg {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+

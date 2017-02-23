@@ -1,0 +1,81 @@
+<link rel="stylesheet" href="js/views/retorno/retorno.css">
+<link rel="stylesheet" href="js/components/autocomplete/autocomplete.css">
+
+<div ng-if="editingRetorno" class="edit-container view-animate">
+  <div class="row">
+    <div class="col-xs-6">
+      <label class="control-label" for="inputShop">Shop</label>
+      <!-- <input required class="form-control" type="text"  placeholder="Shop" ng-model="receipt.shop_name" required id="inputShop"> -->
+      <autocomplete placeholder="Shop" id="inputShop" required ng-model="receipt.shop_name" attr-placeholder="Shop name" click-activation="true" data="autocompleteList.shops" on-type="doSomething" on-select="doSomethingElse"></autocomplete>
+
+    </div>
+    <div class="col-xs-6">
+      <label required class="control-label" for="inputDate">Date</label>
+      <input class="form-control" type="date" placeholder="Date" ng-model="receipt.date" id="inputDate" >
+    </div>
+  </div>
+
+  <div class="list-group edit-receipt-product-list">
+    <p><strong>Products</strong></p>
+    <div class="row list-group-item repeated-item receipt-product-row" ng-repeat="product in receipt['products']">
+      <div class="col-sm-9">
+        <autocomplete required ng-model="product.name" attr-placeholder="Product title" click-activation="true" data="autocompleteList.products" on-type="doSomething" on-select="doSomethingElse"></autocomplete>
+      </div>
+      <div class="col-sm-2">
+        <input class="form-control" ng-model="product.price" type="number" step=".01" placeholder="Price">
+      </div>
+      <div class="col-sm-1 pull-right">
+        <button class="btn btn-default" ng-click="removeProductField(product)"><span class="glyphicon glyphicon-trash"></span></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <button ng-click="addProductField()" id="addProductButton" class="btn btn-lg btn-default col-xs-5"><span class="glyphicon glyphicon-plus"></span>Add product</button>
+    <div class="form-group col-xs-7">
+      <h2 class="text-right">Total: {{receipt['total_sum']}} €</h2>
+    </div>
+  </div>
+
+  <div class="row bottom-controls">
+    <div class="col-xs-6">
+      <button class="btn btn-success btn-block btn-lg" ng-click="saveReceipt()">Save receipt</button>
+    </div>
+    <div class="col-xs-6">
+      <button class="btn btn-danger btn-block btn-lg" ng-click="editReceipt()">Stop editing</button>
+    </div>
+  </div>
+</div>
+
+<div ng-if="!editingReceipt" class="view-animate"> <!-- todo add some caption -->
+  <div class="receipt-details">
+    <div class="col-xs-6">
+      <h2>{{receipt.shop_name}}</h2>
+    </div>
+    <div class="col-xs-6">
+      <h2> {{receipt.date}} </h2>
+    </div>
+  </div>
+
+  <table class="table">
+    <tr class="" ng-repeat="product in receipt['products']">
+      <td>{{product.name}}</td>
+      <td><strong>{{product.price}} €</strong></td>
+    </tr>
+
+  </table>
+  <div class="row">
+    <div class="form-group col-xs-12">
+      <h2 class="text-right">Total: {{receipt['total_sum']}} €</h2>
+    </div>
+  </div>
+
+  <div class="row bottom-controls">
+    <div class="col-xs-6">
+      <button class="btn btn-success btn-block btn-lg" ng-click="editReceipt()">Edit receipt <span class="glyphicon glyphicon-edit"></span></button>
+    </div>
+    <div class="col-xs-6">
+      <a href="#/home" class="btn btn-danger btn-block btn-lg">Back / Discard</a>
+    </div>
+  </div>
+</div>

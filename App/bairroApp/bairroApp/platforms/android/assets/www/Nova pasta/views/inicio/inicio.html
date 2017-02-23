@@ -1,0 +1,53 @@
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <p><strong>Serviços do seu Bairro</strong></p>
+    </div>
+  </md-toolbar>
+
+  <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left">
+   
+
+  </md-sidenav>
+
+  <md-content class="md-padding" layout="row" layout-wrap>
+    <md-card ng-repeat="anuncio in anuncios" flex="30">
+      <img ng-src="{{ anuncio.image }}" alt="fill bill">
+      <md-card-content>
+
+        <div class="anuncio-info" ng-show="!showContact">
+          <h2 class="md-title"> {{ anuncio.title }} </h2>
+          <h2> {{ anuncio.posted | date: 'longDate' }} </h2>
+          <h3> {{ anuncio.price | currency }} </h3>
+          <p> {{ anuncio.description }} </p>
+        </div>
+
+        <div class="anuncio-contact" ng-show="showContact">
+
+          <h2>Contact Info </h2>
+          <p>
+            <md-icon class="zmdi zmdi-account"></md-icon>
+            {{ anuncio.contact.name}}
+          </p>
+          <p>
+            <md-icon class="zmdi zmdi-phone"></md-icon>
+            {{ anuncio.contact.phone}}
+          </p>
+          <p>
+            <md-icon class="zmdi zmdi-email"></md-icon>
+            {{ anuncio.contact.email}}
+          </p>
+        </div>
+
+        <div layout="row">
+          <md-button ng-click="showContact = true" ng-show="!showContact">
+            Contact
+          </md-button>
+
+          <md-button ng-click="showContact = false" ng-show="showContact">
+            Details
+          </md-button>
+        </div>
+            
+      </md-card-content>
+    </md-card>
+  </md-content>
